@@ -1,0 +1,45 @@
+body {
+   margin: 0;
+    font-family: sans-serif;
+}
+
+/* Header CSS */
+header {
+    background-color: #002366;
+    color: #FFFFFF;
+}
+
+header.navbar-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+}
+
+header h1{
+    margin-left: 70px;
+}
+
+.nav-list ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav-list li {
+    display: inline;
+    float: left;
+}   
+
+.nav-list li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+li a:hover {
+    background-color: #1E3A8A;
+}
+
