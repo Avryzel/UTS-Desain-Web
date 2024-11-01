@@ -58,6 +58,11 @@ main {
     margin: 0;
 }
 
+.hero {
+    margin-top: 200px;
+    font-size: 50px;
+}
+
 .hero h1 {
     display: flex;
     align-items: center;
@@ -77,4 +82,18 @@ main {
 .hero button {
     margin: 0 auto;
     display: block;
+    padding: 8px 14px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 20px;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.hero button:hover {
+    cursor: pointer;
 }
