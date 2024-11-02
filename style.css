@@ -288,7 +288,12 @@ footer {
     flex: 1;
 }
 
-.promo-text h4, p {
+.promo-text h4 {
+    float: left;
+    text-align: left;
+}
+
+.promo-text p {
     float: left;
     text-align: left;
 }
