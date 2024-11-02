@@ -64,8 +64,9 @@ hr {
 }
 
 .hero {
-    margin-top: 100px;
+    margin-top: 230px;
     font-size: 50px;
+    min-height: 60vh;
 }
 
 .hero h1 {
@@ -164,7 +165,6 @@ hr {
 /* Review section */
 .review h2 {
     font-size: 2em;
-    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,7 +199,6 @@ hr {
 
 /* Footer section */
 footer {
-    height: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
