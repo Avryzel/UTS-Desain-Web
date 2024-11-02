@@ -53,6 +53,7 @@ li a:hover {
 }
 
 /* Main CSS */
+/* Hero Section*/
 main {
     margin: 0;
 }
@@ -102,14 +103,66 @@ hr {
     cursor: pointer;
 }
 
-.box-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 70px;
-    margin-right: 70px;
+/* Alasan kenapa section */
+.alasan-kenapa {
+   text-align: center;
+   padding: 60px 20px;
+   margin-left: 70px;
+   margin-right: 70px;
 }
 
-.review h1 {
+.alasan-kenapa h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-box {
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+.feature-box h3 {
+    font-size: 1.1em;
+    color: #1A202C; 
+    margin: 10px 0;
+}
+
+.feature-box p {
+    color: #4A5568; 
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.feature-box .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icon img {
+    height: 70px;
+}
+
+
+
+/* Review section */
+.review h2 {
+    font-size: 2em;
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -117,10 +170,27 @@ hr {
 }
 
 .review-box {
-    margin: auto;
+    margin: auto;   
     background-color: #FFFFFF;
     padding: 20px;
     width: 300px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-box img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
 }
