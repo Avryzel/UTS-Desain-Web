@@ -173,7 +173,6 @@ hr {
 
 .review-box {
     margin: auto;   
-    margin-bottom: z70px;
     background-color: #FFFFFF;
     padding: 20px;
     width: 300px;
@@ -224,6 +223,7 @@ footer {
 /* Home */
 
 /* Beli Paket */
+/* Kategori Paket */
 .beli-paket {
     width: 80%;
     margin: auto;
@@ -254,20 +254,34 @@ footer {
     margin: 0 auto;
 }
 
-.paket img {
-    height: 100px;
-    border-radius: 8px;
-}
-
 .opsi {
     margin: auto;   
     background-color: #FFFFFF;
     padding: 20px;
     width: 300px;
+    height: 250px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.opsi i {
+    font-size: 50px;
+}
+
+.opsi h3 {
+    font-size: 1.1em;
+    color: #1A202C; 
+    text-align: center;
+    margin: 10px auto;
+}
+
+.opsi p {
+    text-align: center;
+    color: #4A5568; 
+    font-size: 0.95em;
+}
+
+/* Promo */
 .promo {
     width: 80%;
     margin: auto;
@@ -303,9 +317,9 @@ footer {
     flex: 1;
 }
 
-.promo-text h4 {
+.promo-text h3 {
     float: left;
-    text-align: left;
+    text-align: left; 
 }
 
 .promo-text p {
