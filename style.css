@@ -45,12 +45,12 @@ header h1{
     padding: 14px 16px;
     text-decoration: none;
     font-weight: 500;
-
     color: #FFFFFF;
 }
 
 li a:hover {
     background-color: #1E3A8A;
+    transition-duration: 1s;
 }
 
 /* Main CSS */
@@ -100,6 +100,8 @@ hr {
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
+
 
 .hero button:hover {
     cursor: pointer;
