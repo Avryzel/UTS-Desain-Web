@@ -329,9 +329,8 @@ footer {
     margin-bottom: 50px;
 }
 
-.promo-box img {
-    height: 80px;
-    border-radius: 8px;
+.promo-box i {
+    font-size: 70px;
 }
 
 .promo-text {
