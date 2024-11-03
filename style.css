@@ -99,12 +99,13 @@ hr {
 
     background-color: #3882F6;
     color: #F9FAF8;
+
+    transition: background-color 0.3s ease;
 }
-
-
 
 .hero button:hover {
     cursor: pointer;
+    background-color: #306AC9;
 }
 
 /* Alasan kenapa section */
