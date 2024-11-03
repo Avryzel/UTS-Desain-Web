@@ -19,14 +19,22 @@ header {
     margin: 0;
 }
 
-header.navbar-container {
+.navbar-container {
     display: flex;
-    align-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 header h1{
     margin-left: 70px;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
 }
 
 .nav-list ul {
@@ -35,8 +43,8 @@ header h1{
 }
 
 .nav-list li {
-    display: inline;
-    float: left;
+    display: inline-block;
+    margin-right: 10px;
 }   
 
 .nav-list li a {
@@ -50,6 +58,24 @@ header h1{
 
 li a:hover {
     background-color: #1E3A8A;
+    transition-duration: 1s;
+}
+
+.login-button {
+    float: right;
+    margin-right: 70px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+
+    background-color: #306AC9; 
+    color: #FFFFFF;
+}
+
+.login-button:hover {
+    background-color: #308AC9;
     transition-duration: 1s;
 }
 
