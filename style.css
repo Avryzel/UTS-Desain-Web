@@ -111,9 +111,7 @@ hr {
 /* Alasan kenapa section */
 .alasan-kenapa {
    text-align: center;
-   padding: 60px 20px;
-   margin-left: 70px;
-   margin-right: 70px;
+   padding: 60px 20px;  
 }
 
 .alasan-kenapa h2 {
@@ -124,30 +122,31 @@ hr {
 .features-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;    
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .feature-box {
-    margin-top: 70px;
     width: 250px;
     height: 300px;
     padding: 20px;
-    text-align: left;
+    margin-bottom: 50px;
 }
 
 .feature-box h3 {
     font-size: 1.1em;
     color: #1A202C; 
     margin: 10px 0;
+    text-align: left;
 }
 
 .feature-box p {
     color: #4A5568; 
     font-size: 0.95em;
     line-height: 1.6;
+    text-align: left;
 }
 
 .feature-box .icon {
@@ -160,11 +159,9 @@ hr {
     border-radius: 50%;
 }
 
-.icon img {
-    height: 70px;
+.icon i {
+   font-size: 50px;
 }
-
-
 
 /* Review section */
 .review h2 {
