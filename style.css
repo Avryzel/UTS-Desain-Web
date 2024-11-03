@@ -173,11 +173,25 @@ hr {
 
 .review-box {
     margin: auto;   
+    margin-bottom: z70px;
     background-color: #FFFFFF;
     padding: 20px;
     width: 300px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-box h3 {
+    font-size: 1.1em;
+    color: #1A202C; 
+    text-align: center;
+    margin: 10px auto;
+}
+
+.review-box p {
+    text-align: center;
+    color: #4A5568; 
+    font-size: 0.95em;
 }
 
 .review-box img {
@@ -186,8 +200,8 @@ hr {
     margin-left: auto;
     justify-content: center;
     align-items: center;
-    height: 150px;
-    border-radius: 8px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 .box-container {
