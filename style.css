@@ -421,4 +421,9 @@ footer {
     transition: background-color 0.3s ease;
 }
 
+#login-button:hover {
+    cursor: pointer;
+    background-color: #306AC9;
+}
+
 /* Login Page */
