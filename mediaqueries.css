@@ -1,0 +1,46 @@
+@media screen and (max-width: 900px) {
+    .nav-list {
+        display: none;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .login-button {
+        margin: 0;
+    }
+
+    li a:hover {
+        background-color: #FFFFFF; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-list {
+        margin: 0;
+        display: none;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .login-button {
+        margin: 0;
+    }
+
+    .menu-links a {
+        padding: 5px;
+        font-size: 25px;
+    }
+}
