@@ -5,7 +5,13 @@
 - *Mata Kuliah* : Desain Web
 - *Dosen* : Adi Wahyu Pribadi, S.Si., M.Kom
 
+## Tujuan Proyek
+
+Tujuan utama dari pembuatan website ini adalah untuk memenuhi nilai UTS dalam mata kuliah Desain Web dan menunjukkan pemahaman dalam konsep dasar hingga tingkat lanjut dalam desain web, seperti:
+
+
 ## Deskripsi Proyek
+
 Website dengan tema edukasi, yang menyediakan kelas kursus tertentu.
 
 ## Screenshoot Tampilan
