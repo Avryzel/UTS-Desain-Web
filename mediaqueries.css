@@ -19,6 +19,10 @@
     li a:hover {
         background-color: #FFFFFF; 
     }
+
+    #box {
+        width: 600px;
+    }
 }
 
 @media screen and (max-width: 500px) {
