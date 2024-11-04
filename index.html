@@ -12,6 +12,7 @@
     <header class="navbar-container">
         <!-- Header -->
         <h1>Niatin Aja Dulu</h1>
+        <!-- Desktop Navbar -->
         <nav class="nav-list">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -21,6 +22,25 @@
             </ul>
         </nav>
         <a href="login.html" class="login-button">Login</a>
+
+        <!-- Hamburger Navbar -->
+        <nav id="hamburger-nav">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div>
+                    <ul class="menu-links">
+                        <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                        <li><a href="paket.html" onclick="toggleMenu()">Beli Paket</a></li>
+                        <li><a href="#" onclick="toggleMenu()">About Ust</a></li>
+                        <li><a href="#" onclick="toggleMenu()">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <!-- Main -->
