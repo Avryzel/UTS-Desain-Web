@@ -7,7 +7,7 @@
 
 ## Tujuan Proyek
 
-Tujuan utama dari pembuatan website ini adalah untuk memenuhi nilai UTS dalam mata kuliah Desain Web dan menunjukkan pemahaman dalam konsep dasar hingga tingkat lanjut dalam desain web, seperti:
+Tujuan utama dari pembuatan website ini adalah untuk memenuhi nilai UTS dalam mata kuliah Desain Web dan menunjukkan pemahaman dalam konsep dasar hingga tingkat lanjut dalam desain web.
 
 
 ## Deskripsi Proyek
